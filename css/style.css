@@ -1,1 +1,222 @@
 /* -------CSS RESET------- */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* -------STYLING-------*/
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    background: #FDF3E7;
+    color: #333;
+    line-height: 1.8em;
+    background-size: 100%;
+}
+
+header h2 {
+    font-style:italic;
+    font-size: 2em;
+    color: #3B3738;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-style:normal;
+    font-size: 4em;
+    margin-top: 1em;
+    margin-left: .3em;
+    color: #3B3738;
+    text-align: center;
+    line-height: 1em;
+    font-family: 'Libre Baskerville', serif;
+}
+.kern {
+    letter-spacing: -1.8px;
+}
+
+h2, {
+    font-weight: normal;
+    font-size: 2.25em;
+    color: #3D5459;
+    text-align: center;
+}
+
+/* -------TYPOGRAPHY------- */
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: 0.25em;
+    line-height: .2em;
+}
+
+h2 {
+    font-size: 2.25em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+
+blockquote {
+    padding: 1 em 0 4em 0;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    color: #7E8F7C;
+    hanging-punctuation: first;
+    text-indent: -.5em;
+}
+blockquote cite {
+    font-size: 0.75em;
+}
+
+/* -------LINKS------*/
+a {
+    color: #6F6E64;
+    text-decoration: none;
+}
+a hover {
+    color: #006341;
+    border-bottom: 1px dotted;
+}
+
+/*-----sections-----*/
+section {
+    margin-top: 2em;
+    padding-bottom: 1em;
+    }
+
+/* -------NAVIGATION------- */
+
+nav {
+    margin-bottom: 1em;
+    background-color: #EE743B;
+    margin: auto;
+    padding: 1em;
+    width: 100%;
+}
+
+a {
+    color: #1B1A17;
+    text-decoration: none;
+    transition: all .15s ease-in;
+}
+
+nav ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li { 
+    display: inline;
+    margin: 12px;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #FEFAEE;
+}
+
+/* -------IMAGES------- */
+img {
+    display: auto;
+    margin: 1em;
+    max-width: 100%;
+    
+}
+#zuzana {
+    border-radius: 49%;
+    border: 2px groove #FDF3E7;
+    max-width: 54%;
+    margin: auto;
+    display: block;
+    margin-bottom: 0em;
+    margin-top: .9em;
+    background-size: 200%;
+}
+
+/*container*/
+#early-life {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+}
+
+#emigre {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+    float: right;
+    text-align: right;
+}
+
+#introduction {
+    text-align: center;
+    padding-top: 1.8em;
+}
+#macintosh {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+}
+
+#mrs-eaves {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+    float: right;
+    text-align: right;
+}
+#typeface {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+    float: center;
+}
+#awards {
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+    float: right;
+    text-align: right;
+}
+
+#my-opinion{
+    background-color: none;
+    padding: 0.2em 0 0;
+    border-top: 15px solid #EE743B;
+    width: 170%;
+    float: center;
+}
+
+/*------FOOTER-----*/
+footer {
+    background-color: #EE743B;
+    width: 150%;
+    padding: 4px
+}
