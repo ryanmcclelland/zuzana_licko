@@ -10,13 +10,14 @@
 
 body {
     font-family: 'Libre Baskerville', serif;
-    width: 80%;
-    max-width: 750px;
+    width: 75%;
+    max-width: 75%;
     margin: auto;
     background: #FDF3E7;
     color: #333;
     line-height: 1.8em;
     background-size: 100%;
+    
 }
 
 header h2 {
@@ -25,22 +26,26 @@ header h2 {
     color: #3B3738;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    font-weight: 500;
-    margin-bottom: 40px;
+    font-weight: 400;
+    margin-bottom: 14px;
 }
 
 header h1 {
     font-style:normal;
-    font-size: 4em;
-    margin-top: 1em;
+    font-size: 5em;
+    margin-top: 0.3em;
     margin-left: .3em;
     color: #3B3738;
     text-align: center;
-    line-height: 1em;
+    line-height: 1.2em;
     font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
 }
 .kern {
     letter-spacing: -1.8px;
+}
+.amp {
+    font-size: 1.2em;
 }
 
 h2, {
@@ -61,10 +66,12 @@ p{
 }
 
 h1 {
-    font-size: 4em;
-    margin-top: 2em;
-    margin-bottom: 0.25em;
-    line-height: .2em;
+    font-size: em;
+    margin-top: em;
+    margin-bottom: em;
+    margin-left: 0em;
+    line-height: em;
+
 }
 
 h2 {
@@ -73,11 +80,16 @@ h2 {
     line-height: 1.5em;
 }
 
-
+blockquote p{
+    font-family: 'Libre Baskerville', serif;
+}
+#cite {
+    float: right;
+}
 blockquote {
     padding: 1 em 0 4em 0;
-    font-size: 1.75em;
-    line-height: 1.4em;
+    font-size: 1.5em;
+    line-height: 1.3em;
     color: #7E8F7C;
     hanging-punctuation: first;
     text-indent: -.5em;
@@ -102,13 +114,18 @@ section {
     padding-bottom: 1em;
     }
 
+head {
+    background: #006341;
+}
+
 /* -------NAVIGATION------- */
 
 nav {
     margin-bottom: 1em;
     background-color: #EE743B;
     margin: auto;
-    padding: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     width: 100%;
 }
 
@@ -128,7 +145,7 @@ nav ul {
 
 nav ul li { 
     display: inline;
-    margin: 12px;
+    margin: 10px;
 }
 
 nav a:hover {
@@ -145,21 +162,23 @@ img {
 }
 #zuzana {
     border-radius: 49%;
-    border: 2px groove #FDF3E7;
-    max-width: 54%;
+    border: 1.2px groove #3B3738;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    max-width: 24%;
     margin: auto;
     display: block;
-    margin-bottom: 0em;
-    margin-top: .9em;
+    margin-bottom: 3.2em;
+    margin-top: 1.2em;
     background-size: 200%;
 }
+
 
 /*container*/
 #early-life {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
 }
 
 #emigre {
@@ -173,20 +192,24 @@ img {
 
 #introduction {
     text-align: center;
-    padding-top: 1.8em;
+    padding-top: 1.05em;
+    margin-bottom: 0.7em;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 500;
 }
 #macintosh {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
 }
 
 #mrs-eaves {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
     float: right;
     text-align: right;
 }
@@ -194,14 +217,14 @@ img {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
     float: center;
 }
 #awards {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
     float: right;
     text-align: right;
 }
@@ -210,13 +233,57 @@ img {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 170%;
+    width: 120%;
     float: center;
+}
+
+/* -------TABLE------- */
+table{
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    padding: 0em;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+caption{
+    margin-bottom: 1.3em;
+    text-transform: ;
+    line-height: 1.5em;
+}
+
+th {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #D48361;
+}
+th, td {
+    padding: .6em;
+}
+
+}
+td {
+    font-style: italic;
+}
+
+th {
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+table, td {
+    background: #E6E6E6;
+    border: 1px solid #FDF3E7;
 }
 
 /*------FOOTER-----*/
 footer {
     background-color: #EE743B;
-    width: 150%;
+    width: 120%;
     padding: 4px
 }
