@@ -11,7 +11,7 @@
 body {
     font-family: 'Libre Baskerville', serif;
     width: 75%;
-    max-width: 75%;
+    max-width: 60%;
     margin: auto;
     background: #FDF3E7;
     color: #333;
@@ -80,10 +80,17 @@ h2 {
     line-height: 1.5em;
 }
 
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
 blockquote p{
     font-family: 'Libre Baskerville', serif;
 }
-#cite {
+.cite {
     float: right;
 }
 blockquote {
@@ -168,17 +175,42 @@ img {
     margin: auto;
     display: block;
     margin-bottom: 3.2em;
-    margin-top: 1.2em;
+    margin-top: 1.9em;
     background-size: 200%;
 }
 
+#logo {
+    width: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+#cover {
+    width: 25.5%;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+#mac {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+#gui {
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+#eaves {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
 
 /*container*/
 #early-life {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 120%;
+    width: 140%;
 }
 
 #emigre {
@@ -202,7 +234,7 @@ img {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 120%;
+    width: 140%;
 }
 
 #mrs-eaves {
@@ -217,14 +249,14 @@ img {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 120%;
+    width: 140%;
     float: center;
 }
 #awards {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 120%;
+    width: 140%;
     float: right;
     text-align: right;
 }
@@ -233,7 +265,7 @@ img {
     background-color: none;
     padding: 0.2em 0 0;
     border-top: 15px solid #EE743B;
-    width: 120%;
+    width: 140%;
     float: center;
 }
 
@@ -284,6 +316,16 @@ table, td {
 /*------FOOTER-----*/
 footer {
     background-color: #EE743B;
-    width: 120%;
-    padding: 4px
+    width: 100%;
+    padding: 10px
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    color: #fff;
+}
+
+#bib {
+    font-size: 3em;
 }
